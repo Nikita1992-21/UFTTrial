@@ -132,7 +132,7 @@
 <General productName="Micro Focus Unified Functional Testing" productVer="14.53" os="" host="EXTRA-PC-80"><DocLocation><![CDATA[C:\Git\UFTTrial\GUITest1]]></DocLocation></General>
 <Doc rID="T1"   productName= "Micro Focus Unified Functional Testing"  >
 <DName><![CDATA[GUITest1]]></DName>
-<Res><![CDATA[Res1]]></Res>
+<Res><![CDATA[Res3]]></Res>
 <DT rID="T2">
 <NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
 <Disp><![CDATA[Run-Time Data Table]]></Disp>
@@ -145,157 +145,105 @@
 <Step rID="T4">
 <Obj plainTxt="False" ><![CDATA[StartUp Browser]]></Obj>
 <Details plainTxt="False" ><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:07]]></Time>
-<TimeTick>1570701607</TimeTick>
+<Time><![CDATA[10-10-2019 - 15:46:40]]></Time>
+<TimeTick>1570702600</TimeTick>
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[StartUp Browser.Navigate]]></Obj>
-<Details plainTxt="False" ><![CDATA[Navigate to https://www.oracle.com/in/index.html]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:07]]></Time>
-<TimeTick>1570701607</TimeTick>
-<NodeArgs eType="Replay" icon="4" nRep="9" MovieMarker="MARK0" Source="Action0" SourceLine="-1" >
+<Details plainTxt="False" ><![CDATA[Navigate to https://www.google.com/]]></Details>
+<Time><![CDATA[10-10-2019 - 15:46:40]]></Time>
+<TimeTick>1570702600</TimeTick>
+<NodeArgs eType="Replay" icon="4" nRep="9" MovieMarker="MARK14" Source="Action0" SourceLine="-1" >
 <Disp><![CDATA[StartUp Browser.Navigate]]></Disp>
 <BtmPane vType="ViewerGen.SSViewerGen" >
-<Path><![CDATA[ZIP::Act0\Row1\ssf2.xml]]></Path>
-<ASHilite><![CDATA[2034648]]></ASHilite>
+<Path><![CDATA[ZIP::Act0\Row1\ssf5.xml]]></Path>
+<ASHilite><![CDATA[3213630]]></ASHilite>
 </BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[StartUp Browser.Sync]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:09]]></Time>
-<TimeTick>1570701609</TimeTick>
-<NodeArgs eType="Replay" icon="4" nRep="11" MovieMarker="MARK1" Source="Action0" SourceLine="-1" >
+<Time><![CDATA[10-10-2019 - 15:46:41]]></Time>
+<TimeTick>1570702601</TimeTick>
+<NodeArgs eType="Replay" icon="4" nRep="11" MovieMarker="MARK15" Source="Action0" SourceLine="-1" >
 <Disp><![CDATA[StartUp Browser.Sync]]></Disp>
 <BtmPane vType="ViewerGen.SSViewerGen" >
-<Path><![CDATA[ZIP::Act0\Row1\ssf3.xml]]></Path>
-<ASHilite><![CDATA[2034648]]></ASHilite>
+<Path><![CDATA[ZIP::Act0\Row1\ssf6.xml]]></Path>
+<ASHilite><![CDATA[3213630]]></ASHilite>
 </BtmPane>
 </NodeArgs>
 </Step>
 <NodeArgs eType="Context" icon="4" nRep="8" Source="Action0" SourceLine="-1" >
 <Disp><![CDATA[StartUp Browser]]></Disp>
 <BtmPane vType="ViewerGen.SSViewerGen" >
-<Path><![CDATA[ZIP::Act0\Row1\ssf1.xml]]></Path>
-<ASHilite><![CDATA[2034648]]></ASHilite>
+<Path><![CDATA[ZIP::Act0\Row1\ssf4.xml]]></Path>
+<ASHilite><![CDATA[3213630]]></ASHilite>
 </BtmPane>
 </NodeArgs>
 </Step>
 <Action rID="T7">
 <AName><![CDATA[Action1]]></AName>
 <Step rID="T8">
-<Obj plainTxt="False" ><![CDATA[Oracle India | Integrated]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Google]]></Obj>
 <Details plainTxt="False" ><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:15]]></Time>
-<TimeTick>1570701615</TimeTick>
+<Time><![CDATA[10-10-2019 - 15:46:41]]></Time>
+<TimeTick>1570702601</TimeTick>
 <Step rID="T9">
-<Obj plainTxt="False" ><![CDATA["Oracle India | Integrated"- Smart Identification]]></Obj>
-<Details plainTxt="False" ><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not unique (5 objects found)</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (5 objects found)&nbsp;</FONT></u><br>
+<Obj plainTxt="False" ><![CDATA["Google"- Smart Identification]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not unique (6 objects found)</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (6 objects found)&nbsp;</FONT></u><br>
 micclass=Browser<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-name=Oracle India | Integrated Cloud Applications and Platform Services<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>title=Oracle India | Integrated Cloud Applications and Platform Services<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>openurl=https://www.oracle.com/in/index.html<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>opentitle=Oracle India | Integrated Cloud Applications and Platform Services<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>number of tabs=1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:15]]></Time>
-<TimeTick>1570701615</TimeTick>
-<NodeArgs eType="Replay" icon="6" nRep="15" MovieMarker="MARK3" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA["Oracle India | Integrated"- Smart Identification]]></Disp>
+name=Google<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>title=Google<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>openurl=https://www.google.com<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>opentitle=Google<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>number of tabs=1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></Details>
+<Time><![CDATA[10-10-2019 - 15:46:41]]></Time>
+<TimeTick>1570702601</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="15" MovieMarker="MARK17" Source="Action1" SourceLine="-1" >
+<Disp><![CDATA["Google"- Smart Identification]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T10">
-<Obj plainTxt="False" ><![CDATA[Oracle India | Integrated]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Google]]></Obj>
 <Details plainTxt="False" ><![CDATA[Page]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:15]]></Time>
-<TimeTick>1570701615</TimeTick>
+<Time><![CDATA[10-10-2019 - 15:46:41]]></Time>
+<TimeTick>1570702601</TimeTick>
 <Step rID="T11">
-<Obj plainTxt="False" ><![CDATA[Menu.Click]]></Obj>
-<Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:16]]></Time>
-<TimeTick>1570701616</TimeTick>
-<NodeArgs eType="Replay" icon="8" nRep="18" MovieMarker="MARK4" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Menu.Click]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Search.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["Jenkins example"]]></Details>
+<Time><![CDATA[10-10-2019 - 15:46:41]]></Time>
+<TimeTick>1570702601</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="18" MovieMarker="MARK18" Source="Action1" SourceLine="-1" >
+<Disp><![CDATA[Search.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf2.xml]]></Path>
+<Path><![CDATA[ZIP::Act1\Row0\ssf15.xml]]></Path>
 <ASHilite><![CDATA[10000000]]></ASHilite>
 </BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T12">
-<Obj plainTxt="False" ><![CDATA[Oracle Database.Click]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Google Search.Click]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:16]]></Time>
-<TimeTick>1570701616</TimeTick>
-<NodeArgs eType="Replay" icon="8" nRep="21" MovieMarker="MARK5" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Oracle Database.Click]]></Disp>
+<Time><![CDATA[10-10-2019 - 15:46:41]]></Time>
+<TimeTick>1570702601</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="21" MovieMarker="MARK19" Source="Action1" SourceLine="-1" >
+<Disp><![CDATA[Google Search.Click]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf3.xml]]></Path>
+<Path><![CDATA[ZIP::Act1\Row0\ssf16.xml]]></Path>
 <ASHilite><![CDATA[10000000]]></ASHilite>
 </BtmPane>
 </NodeArgs>
 </Step>
 <NodeArgs eType="Context" icon="7" nRep="17" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Oracle India | Integrated]]></Disp>
+<Disp><![CDATA[Google]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf1.xml]]></Path>
-<ASHilite><![CDATA[10000000]]></ASHilite>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T13">
-<Obj plainTxt="False" ><![CDATA[Database Technologies]]></Obj>
-<Details plainTxt="False" ><![CDATA[Page]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:19]]></Time>
-<TimeTick>1570701619</TimeTick>
-<Step rID="T14">
-<Obj plainTxt="False" ><![CDATA[Database Upgrades.Click]]></Obj>
-<Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:19]]></Time>
-<TimeTick>1570701619</TimeTick>
-<NodeArgs eType="Replay" icon="8" nRep="25" MovieMarker="MARK6" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Database Upgrades.Click]]></Disp>
-<BtmPane vType="Mercury.SSHWeb" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf5.xml]]></Path>
-<ASHilite><![CDATA[10000000]]></ASHilite>
-</BtmPane>
-</NodeArgs>
-</Step>
-<NodeArgs eType="Context" icon="7" nRep="24" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Database Technologies]]></Disp>
-<BtmPane vType="Mercury.SSHWeb" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf4.xml]]></Path>
-<ASHilite><![CDATA[10000000]]></ASHilite>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T15">
-<Obj plainTxt="False" ><![CDATA[Database Upgrades and]]></Obj>
-<Details plainTxt="False" ><![CDATA[Page]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:21]]></Time>
-<TimeTick>1570701621</TimeTick>
-<Step rID="T16">
-<Obj plainTxt="False" ><![CDATA[Home.Click]]></Obj>
-<Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10-10-2019 - 15:30:21]]></Time>
-<TimeTick>1570701621</TimeTick>
-<NodeArgs eType="Replay" icon="8" nRep="29" MovieMarker="MARK7" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Home.Click]]></Disp>
-<BtmPane vType="Mercury.SSHWeb" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf7.xml]]></Path>
-<ASHilite><![CDATA[10000000]]></ASHilite>
-</BtmPane>
-</NodeArgs>
-</Step>
-<NodeArgs eType="Context" icon="7" nRep="28" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Database Upgrades and]]></Disp>
-<BtmPane vType="Mercury.SSHWeb" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf6.xml]]></Path>
+<Path><![CDATA[ZIP::Act1\Row0\ssf14.xml]]></Path>
 <ASHilite><![CDATA[10000000]]></ASHilite>
 </BtmPane>
 </NodeArgs>
 </Step>
 <NodeArgs eType="Context" icon="4" nRep="14" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Oracle India | Integrated]]></Disp>
+<Disp><![CDATA[Google]]></Disp>
 </NodeArgs>
 </Step>
-<Summary sTime="10-10-2019 - 15:30:10" eTime="10-10-2019 - 15:30:22" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="5" nRep="12" MovieMarker="MARK2" >
+<Summary sTime="10-10-2019 - 15:46:41" eTime="10-10-2019 - 15:46:41" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="5" nRep="12" MovieMarker="MARK16" >
 <Disp><![CDATA[Action1 Summary]]></Disp>
 </NodeArgs>
 </Action>
@@ -303,7 +251,7 @@ name=Oracle India | Integrated Cloud Applications and Platform Services<SPAN cla
 <Disp><![CDATA[GUITest1 Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Summary sTime="10-10-2019 - 15:30:04" eTime="10-10-2019 - 15:30:22" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="10-10-2019 - 15:46:39" eTime="10-10-2019 - 15:46:41" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="3" >
 <Disp><![CDATA[Test GUITest1 Summary]]></Disp>
 </NodeArgs>
