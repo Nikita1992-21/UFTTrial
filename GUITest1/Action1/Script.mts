@@ -1,6 +1,13 @@
 ﻿ @@ script infofile_;_ZIP::ssf1.xml_;_
-Browser("Google").Page("Google").WebEdit("Search").Set "Jenkins example" @@ script infofile_;_ZIP::ssf5.xml_;_
-Browser("Google").Page("Google").WebButton("Google Search").Click @@ script infofile_;_ZIP::ssf6.xml_;_
-'Browser("Google").Page("Jenkins example - Google").WebList("localhost-8080RemovelocalhostR").Select "localhost-8080" @@ script infofile_;_ZIP::ssf7.xml_;_
- @@ hightlight id_;_2556390_;_script infofile_;_ZIP::ssf9.xml_;_
- @@ script infofile_;_ZIP::ssf4.xml_;_
+systemutil.Run "C:\Program Files (x86)\Micro Focus\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe"
+
+WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Set "John" @@ hightlight id_;_1982973776_;_script infofile_;_ZIP::ssf12.xml_;_
+WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").SetSecure "5da40df9b377358efd7a" @@ hightlight id_;_1973384280_;_script infofile_;_ZIP::ssf14.xml_;_
+WpfWindow("Micro Focus MyFlight Sample").WpfButton("OK").Click @@ hightlight id_;_1973386056_;_script infofile_;_ZIP::ssf15.xml_;_
+WpfWindow("Micro Focus MyFlight Sample").WpfButton("FIND FLIGHTS").Click @@ hightlight id_;_1988576824_;_script infofile_;_ZIP::ssf16.xml_;_
+WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 2,0 @@ hightlight id_;_1988585176_;_script infofile_;_ZIP::ssf17.xml_;_
+WpfWindow("Micro Focus MyFlight Sample").WpfButton("SELECT FLIGHT").Click @@ hightlight id_;_1988304328_;_script infofile_;_ZIP::ssf18.xml_;_
+WpfWindow("Micro Focus MyFlight Sample").WpfEdit("passengerName").Set "tina" @@ hightlight id_;_1988586088_;_script infofile_;_ZIP::ssf19.xml_;_
+WpfWindow("Micro Focus MyFlight Sample").WpfButton("ORDER").Click @@ hightlight id_;_1988532568_;_script infofile_;_ZIP::ssf20.xml_;_
+
+
