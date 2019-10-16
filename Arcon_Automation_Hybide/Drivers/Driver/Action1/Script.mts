@@ -41,7 +41,7 @@ For j = 1 To TCRowCount Step 1
 				'MsgBox keyward
 				Select Case keyward
 					Case "LG"
-					DataTable(7,5) = Login_Valid("Milind","milind@1")
+					DataTable(7,5) = Login_Valid("Mili7nd","mil7ind@1")
 					Case "CL"
 					DataTable(7,5) = Close_Arcon()
 				End Select
